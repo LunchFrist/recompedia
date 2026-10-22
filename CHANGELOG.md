@@ -42,3 +42,14 @@ Added 23 games from 20 public project repositories. Entries are based on each pr
 - [Mega Man X: Command Mission](https://github.com/vs-sr-dev/pc-megamanxcm): boot, opening movie, menu, new game and opening scenes with sound confirmed.
 
 The index now covers **71 games and 83 project entries**. Game-specific target versions and requirements are shown on the corresponding pages. Recompedia distributes no game files.
+
+## 2026-10-22 — Daily data refresh
+
+The public index was refreshed from project repositories and GameDB. Items below reflect data that the source repositories returned on this run; when a repository request failed, the existing entry was retained rather than guessed.
+
+- [ICO](https://github.com/nathanialf/ico-pc) advanced to **v0.8.1**. Its README lists the European disc (SCES-50760), Japanese disc (SCPS-11003), and Korean disc (SCPS-56001) as supported; the American release is not supported. The page also lists Windows, Linux, Steam Deck, ARM Linux, Android, iOS via LiveContainer, and Apple-silicon macOS, with platform-specific testing caveats.
+- [Gran Turismo 4 decompilation](https://github.com/gustavocanepa/gt4-decomp) is reported at **83.6% matched code** in its objdiff report. This is a matching-decompilation measure, not a claim that the PC/browser port is complete.
+- Repository activity dates were refreshed where available, including [Super Mario Sunshine](https://github.com/doldecomp/sms), [Ratchet & Clank](https://github.com/OpenRAC/rac1-decomp), [Digital Devil Saga 1 and 2](https://github.com/Megami-Decomps/dds-decomp), and [Star Ocean: Till the End of Time](https://github.com/celophi/so3-decomp).
+- Some upstream requests failed during this run, so those project values were kept unchanged until their sources can be reached.
+
+The site also published [“ICO PC Port v0.8.1: Disc Versions & Devices”](https://recompedia.com/blog/ico-pc-port-versions-v0-8-1), covering the confirmed disc releases and platform-specific installation notes.
